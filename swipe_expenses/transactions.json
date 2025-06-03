@@ -1,0 +1,5 @@
+[
+  {"date": "2025-05-01", "description": "Textbook", "amount": 50.00, "bank": "Citibank"},
+  {"date": "2025-05-03", "description": "Groceries", "amount": 30.25, "bank": "HSBC"},
+  {"date": "2025-05-05", "description": "Movie", "amount": 12.00, "bank": "WellsFargo"}
+]
