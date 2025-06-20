@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Swipe Expenses</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Swipe Expenses</h1>
+<div id="card-container">
+  <div id="transaction-card" class="card hidden">
+    <p id="t-date"></p>
+    <p id="t-desc"></p>
+    <p id="t-amount"></p>
+  </div>
+</div>
+<div id="buttons" class="hidden">
+  <button data-cat="Food">Food</button>
+  <button data-cat="Education">Education</button>
+  <button data-cat="Entertainment">Entertainment</button>
+  <button data-cat="Other">Other</button>
+</div>
+<pre id="result"></pre>
+<script src="main.js"></script>
+</body>
+</html>
